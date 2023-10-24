@@ -1,0 +1,27 @@
+tbody,table,th,td,tr{border: 2px solid green;
+    border-collapse: collapse;
+    text-align: center;}
+.SOR{background-color: rgb(185, 63, 63);}
+.IG{background-color: rgba(68, 185, 68, 0.712);}
+.SER{background-color:rgb(202, 146, 43);}
+.SERR{background-color: rgb(255, 0, 242);}
+.AW{background-color: rgb(21, 85, 19);}
+.FOL{background-color: red;}
+.SI{background-color: rgb(173, 173, 158);}
+.recreo{background-color: rgb(110, 79, 41);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;}
+caption{
+    text-align: left;
+    color: red;}
+h4{text-align: center;}
+#abajo{text-align: right;}
+th{background-color: black;
+    color: purple;}
+.hora{background-color:rgb(202, 146, 43);
+    color: purple;}
+.SER:hover,.SOR:hover,.SI:hover,.SERR:hover,.AW:hover,.FOL:hover,.IG:hover{
+    background-color: rgb(37, 219, 219);}
+#julian:target{color: rgb(37, 219, 219);}
+#damian:target{color: red;}
