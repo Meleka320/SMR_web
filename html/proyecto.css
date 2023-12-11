@@ -1,0 +1,130 @@
+body{
+    box-sizing: content-box;
+    width: 600px;
+    margin: auto;
+    height: 815px;
+    border:  1px solid;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+*{box-sizing: border-box;}
+
+nav,nav li{
+    display: inline-block;
+}
+nav{
+    text-align: right;
+    width: 470px;
+}
+nav li{
+    list-style: none;
+    font-family:'Anton',sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+nav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+header{
+    border-bottom: 10px solid #322772;
+    
+}
+article:nth-child(1){
+    width: 40%;
+    display: inline-block;
+    height: 110px;
+    float: left;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    padding-left: 10px;
+    color: lightslategray;
+    
+}
+article:nth-child(2){
+    background-color: #83768d;
+    width: 60%;
+    text-align: center;
+    height: 110px;
+    float:right;
+}
+article:nth-child(3){
+    width: 60%;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    padding-left: 10px;
+    text-align: center;
+    float: left;
+    background-color: purple;
+    color: white;
+    height: 200px;
+    
+}
+article:nth-child(4){
+    width: 40%;
+    text-align: center;
+    float: right;
+    background-color:rgb(42, 78, 42);
+    height: 200px;
+}
+article:nth-child(5){
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: lightslategray;
+}
+article:nth-child(6){
+    float: right;
+    width: 60%;
+    background-color:rgb(121, 94, 146);
+    color: white;
+}
+article:nth-child(7){
+float: left;
+background-color:blue ;
+width:60% ;
+color: white;
+padding: 10px;
+}
+article:nth-child(8){
+float: right;
+width: 40%;
+text-align: center;
+color: yellowgreen;
+background-color: lightblue;
+
+}
+ol{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    display: inline-block;
+}
+h2{
+    margin: 0;
+    display: inline-block;
+    font-family: Anton,sans-serif;
+    color: #83768d;
+    font-size: 16px;
+    margin-left: 20px;
+}
+h3{
+    color: yellowgreen;
+}
+footer{
+    clear: both;
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    font-size: small;
+    text-align: center;
+}
+
+
