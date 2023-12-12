@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mejor Examen</title>
+    <link rel="stylesheet" href="examen.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>Mi mejor examen</h1>
+    </header>
+    <nav>
+        <ol>
+            <li>Resultados</li>
+            <li>Formulario</li>
+            <li>Explicación</li>
+            <li>Aceptación</li>
+        </ol>
+    </nav>
+    <h2>Formulario de reclamación</h2>
+    <form>
+        <fieldset>
+            <legend id="subtitulo">Datos</legend>
+        <label for="nombre">Nombre:</label> <br><input required type="text" name="Nombre" id="nombre" value="" placeholder="Tu nombre,por favor"><br>
+        <label for="apellido">Apellido:</label> <br><input required type="text" name="Apellido" id="apellido" value="" placeholder="Tu apellido, por favor"><br>
+        <label for="Teléfono">Teléfono</label> <br><input required="number" name="Teléfono" id="teléfono" value="" placeholder="618518720"><br>
+        <label for="E-mail">Email:</label> <br><input required type="email" name="Correo electronico" id="Email" value="" placeholder="Recuerda, algo@algo.xx, por favor"><br>
+        </fieldset>  
+        <fieldset>
+            <legend id="subtitulo">Motivo</legend>
+            <label for="Reclamación">Selecciona el motivo de la reclamación</label> <select size="1">
+                <option value="1">Desacuerdo total</option>
+                <option value="2">Error al sumar</option>
+                <option value="3">No lo se</option>
+            </select>
+        </fieldset> 
+        <fieldset>
+            <legend id="subtitulo">Consulta</legend>
+                <label for="Texto"id="duro">Texto</label><textarea name="Texto" id="" cols="50" rows="8" placeholder="Escribe lo que se te pase por la cabeza"></textarea>
+                <nav id="what">
+                    <br><div><input type="submit" value="Enviar" id="botonenviar"></div>
+                    <br><div><input type="reset" value="Borrar" id="botonborrar"></div><br>
+                </nav>
+        </fieldset>
+    </form>
+    <h3>Resultados</h3>
+        <table align="center">
+            <caption><b>Resultados exámenes</b></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="asignaturas">Suspensos</th>
+                    <th id="asignaturas">Aprobados</th>
+                    <th id="asignaturas">Notables</th>
+                    <th id="asignaturas">Sobresalientes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td id="asignaturas">Aplicaciones web</td>
+                <td id="chao">1</td>
+                <td rowspan="2" id="chao">6</td>
+                <td id="chao">4</td>
+                <td id="chao">8</td>
+                </tr>
+                <tr>
+                    <th id="asignaturas">Seguridad informatica</th>
+                    <th id="ao">3</th>
+                    <th id="chao">10</th>
+                    <th id="chao">0</th>
+                </tr>
+                <tr>
+                    <th id="asignaturas">Sistemas operativos y redes</th>
+                    <th id="chao">0</th>
+                    <th id="chao">5</th>
+                    <th id="chao">7</th>
+                    <th id="chao">4</th>
+                </tr>
+                <tr>
+                    <th id="asignaturas">Servicios en red</th>
+                    <th id="ao">2</th>
+                    <th id="ao">8</th>
+                    <th id="ao">8</th>
+                    <th rowspan="2" id="chao">4</th>
+                </tr>
+                <tr>
+                    <th id="asignaturas">Empresa e iniciativa emprendedora</th>
+                    <th id="chao">3</th>
+                    <th id="chao">5</th>
+                    <th id="chao">8</th>
+                </tr>
+                <tr>
+                    <th id="asignaturas">Inlges tecnico para grado medio</th>
+                    <th id="ao">1</th>
+                    <th id="ao">4</th>
+                    <th id="ao">9</th>
+                    <th id="ao">5</th>
+                </tr>
+                <tr>
+                    <th id="paco">Total</th>
+                    <th id="paco">10</th>
+                    <th id="paco">41</th>
+                    <th id="paco">48</th>
+                    <th id="paco">32</th>
+                </tr>
+            </tbody>
+        </table>
+</body>
+<footer>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime soluta excepturi maiores fuga odio placeat debitis quaerat</footer>
+</html>

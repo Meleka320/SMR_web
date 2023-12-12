@@ -1,0 +1,99 @@
+body{
+    box-sizing: content-box;
+    width: 798px;
+    height: 610px;
+    border:  0,5px solid;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    border: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+*{box-sizing: border-box;}
+
+header{
+    text-align: left;
+    background-color:black ;
+    color: white;
+    height: 60px;
+    padding: 1px;
+    border-bottom: 10px solid red;
+}
+nav{
+    
+    width: fit-content;
+}
+nav,nav li{
+    display:inline-block;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;;
+    width: 187px;
+    margin:0%;
+    text-align: center;
+    border-bottom: 10px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    float: left;
+}
+nav li:hover{
+    background-color: #bc5050;
+    color: white;
+    cursor: pointer;
+    
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    color: white;
+    background-color: black;
+    height: 30px;
+    padding: 10px;
+}
+#subtitulo{
+    color: blue;
+}
+input{
+    width: 300px;
+    float: right;
+}
+select{
+float: right;
+}
+textarea{
+    float: right;
+}
+#duro{
+ float: left;
+}
+#what{
+    padding: 10px;
+}
+tbody,table,th,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+#asignaturas{
+    color: white;
+    background-color: grey;
+}
+#chao{
+    color: black;
+    background-color: rgb(217 , 125, 13);
+}
+#ao{
+    background-color: rgb(244, 220, 191);
+    color: black;
+}
+#paco{
+    color: white;
+    background-color: black;
+}
