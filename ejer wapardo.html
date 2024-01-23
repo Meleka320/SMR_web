@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chorizo</title>
+    <style>
+     
+        nav ol>li{display: inline-block;width: 200px;height: 40px;background-color: black;color: white;font-size: 12px;position: relative;}
+     /*     
+        li ol{position: absolute;padding: 0;margin: 0;display: none;top: 28px;}
+        li ol li{display: block;background-color: gray;}
+        li:hover ol{display: block;}
+        */
+        /*
+        li ol {position: absolute;top: 40px;margin: 0;padding: 0;height: 0;overflow: hidden;color: white;transition: 2s;}
+        li:hover ol{height: 200px ;}
+        */
+        li ol {position: absolute;top: 40px;padding: 0;margin: 0;clip-path: inset(0 0 100% 0);transition: 3s;}
+        li:hover ol{clip-path: inset(0 0 0 0);}
+    </style>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li>Nosostros
+                <ol>
+                    <li>Opcion1</li>
+                    <li>Opcion2</li>
+                    <li>Opcion3</li>
+                </ol>
+            </li><li>vosotros
+                <ol>
+                    <li>Opcion1</li>
+                    <li>Opcion2</li>
+                    <li>Opcion3</li>
+                </ol>
+            </li><li>ellos
+                <ol>
+                    <li>Opcion1</li>
+                    <li>Opcion2</li>
+                    <li>Opcion3</li>
+                </ol>
+            </li>
+        </ol>
+    </nav>
+</body>
+</html>
