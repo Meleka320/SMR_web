@@ -1,0 +1,196 @@
+*{box-sizing: content-box;}
+
+body{
+    width: 1024px;
+    height: 2000px;
+    margin: 0 auto;
+  font-weight: 100;
+  font-style: normal;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+#paco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav{
+    position: relative;
+    top: 60px;
+}
+
+nav:hover{
+    border-top: 1px solid blue;
+} 
+
+#chorizo{
+    display: flex;
+    justify-content: end;
+   position: relative;
+    right: 4%;
+    top: -18px;  
+}
+
+#panceta{
+margin: 50px;
+position: relative;
+top: 10px;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
+
+#banner{
+    width: 1024px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: -25px;
+}
+
+#banner ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite ease-in-out;
+}
+
+#banner li{
+    list-style: none;
+    width: 100%;
+}
+
+#banner img{
+    width: 1024px;
+    height: 100%;
+}
+
+#morcilla{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 200px;
+    color: black;
+    
+}
+
+#salami{
+    display: none;
+    list-style-type: none;
+    font-size: small;
+}
+
+#morcilla li:hover #salami{
+    display: block;
+}
+
+span{
+   
+    font-size: 20px;
+}
+
+#queso{
+    padding: 50px;
+}
+
+#vino{
+    width: 170px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(100, 166, 117);
+    border-top: 1px solid darkcyan;
+    color: white;
+}
+
+#champan{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#chistorra{
+    padding: 45px;
+}
+
+#brochetas{
+    text-align: center;
+    border: 4px solid grey;
+    margin-left: 10px;
+    width: 140px;
+}
+
+#entraña{
+    background-color: grey;
+    border: 2px solid grey;
+    color: white;
+    cursor: pointer;
+}
+
+#libros{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 84%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 190px;
+    top: -830px;
+}
+
+#libros div{
+    display: flex;
+    align-items: flex-start;
+    flex-basis:32%;
+    font-size: 13px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.libros{
+    margin: 0;
+    padding: 0;
+}
+
+ol li{
+    list-style: none;
+}
+
+.comprar{
+    color: blue;
+    cursor: pointer;
+}
+
+footer{
+    width: 1024px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 104%;
+    right: 27px;
+    justify-content: center;
+}
